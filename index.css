@@ -46,20 +46,24 @@ header img {
 }
 
 .blurBg{
-  color: red;
-  font-size: 203%;
+  color: #FF5F17;
+  font-size: 264%;
   position: relative;
   z-index: 1;
-  margin-bottom: -27px;
+  margin-bottom: -56px;
+}
+
+.blurBg span {
+  font-size: 46px;
 }
 
 .back-left {
   color: white;
   background-color: white;
-  width: 215px;
-  height: 26px;
+  width: 323px;
+  height: 36px;
   margin:0 auto;
-  translate: 0 -13px;
+  translate: 0 0px;
   filter: blur(7px);
   z-index: -1;
 }
@@ -67,10 +71,10 @@ header img {
 .back-right {
   color: white;
   background-color: white;
-  width: 287px;
-  height: 32px;
+  width: 391px;
+  height: 36px;
   margin:0 auto;
-  translate: 0 -15px;
+  translate: 0 0px;
   filter: blur(7px);
   z-index: -1;
 }
@@ -84,11 +88,11 @@ header img {
 }
 
 .vote img {
-  width: 250px;
+  width: 411px;
 }
 
 .upbringing img {
-  width: 310px;
+  width: 411px;
 }
 
 
@@ -100,7 +104,7 @@ footer {
 
 .footer-text {
   text-align:center;
-  font-size: 50px
+  font-size: 63px
 }
 
 .announce-content {
@@ -125,7 +129,7 @@ footer {
 }
 
 .reception img{
-  width: 83%;
+  width: 80%;
   margin: 2px 0px 0px 8px;
 }
 
@@ -133,7 +137,7 @@ footer {
   margin-left: 15px;
 }
 .map img{
-  width: 73%;
+  width: 80%;
 }
 
 @media screen and (max-width: 600px) {
