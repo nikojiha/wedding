@@ -11,20 +11,21 @@ header {
 }
 
 header img {
-  width: 15%
+  width: 15%;
+  height: 10%;
 }
 
 .title {
   text-align:center;
   padding-top: 26px;
   margin-left: 20px;
-  font-size: 70px;
+  font-size: 50px;
   color: #ffa500;
   letter-spacing: 3px;
 }
 
 .title span {
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 10px;
   letter-spacing: 4px;
 }
@@ -48,20 +49,20 @@ header img {
 
 .blurBg{
   color: #FF5F17;
-  font-size: 264%;
+  font-size: 200%;
   position: relative;
   z-index: 1;
   margin-bottom: -56px;
 }
 
 .blurBg span {
-  font-size: 46px;
+  font-size: 43px;
 }
 
 .back-left {
   color: white;
   background-color: white;
-  width: 323px;
+  width: 256px;
   height: 36px;
   margin:0 auto;
   translate: 0 0px;
@@ -72,7 +73,7 @@ header img {
 .back-right {
   color: white;
   background-color: white;
-  width: 391px;
+  width: 325px;
   height: 36px;
   margin:0 auto;
   translate: 0 0px;
@@ -81,19 +82,19 @@ header img {
 }
 
 .vote {
-  margin-right:130px;
+  margin-right:50px;
 }
 
 .upbringing {
-  margin-left: 130px;
+  margin-left: 60px;
 }
 
 .vote img {
-  width: 411px;
+  width: 270px;
 }
 
 .upbringing img {
-  width: 411px;
+  width: 270px;
 }
 
 
@@ -139,6 +140,86 @@ footer {
 }
 .map img{
   width: 80%;
+}
+
+
+@media screen and (max-width: 768px) {
+  header img {
+    height: 10%;
+    width: 20%;
+}
+
+.title {
+  text-align: center;
+    padding-top: 4%;
+    margin-left: 2%;
+    font-size: 50px;
+    color: #ffa500;
+    letter-spacing: 3px;
+}
+
+.title span {
+  font-size: 50%;
+  padding-left: 0%;
+  letter-spacing: 4px;
+  display: block;
+}
+
+.blurBg{
+  color: #FF5F17;
+  font-size: 24px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -10%;
+}
+
+.blurBg span {
+  font-size: 33px;
+}
+
+.back-left {
+  color: white;
+  background-color: white;
+  width: 50%;
+  height: 14%;
+  margin: 0 auto;
+  translate: 0 -7px;
+  filter: blur(7px);
+  z-index: -1;
+}
+
+.back-right {
+  color: white;
+  background-color: white;
+  width: 74%;
+  height: 14%;
+  margin: 0 auto;
+  translate: 0 -5px;
+  filter: blur(7px);
+  z-index: -1;
+}
+
+.vote {
+  margin-right: 0%;
+}
+
+.upbringing {
+  margin-left: 0%;
+}
+
+.vote img {
+  width: 65%;
+}
+
+.upbringing img {
+  width: 65%;
+}
+
+.footer-text {
+  text-align:center;
+  font-size: 208%;
+}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -215,85 +296,6 @@ header img {
   width: 50%;
 }
 
-
-.footer-text {
-  text-align:center;
-  font-size: 208%
-}
-
-}
-
-@media screen and (max-width: 768px) {
-  header img {
-    height: 10%;
-    width: 20%;
-}
-
-.title {
-  text-align: center;
-    padding-top: 4%;
-    margin-left: 2%;
-    font-size: 49px;
-    color: #ffa500;
-    letter-spacing: 3px;
-}
-
-.title span {
-  font-size: 50%;
-  padding-left: 0%;
-  letter-spacing: 4px;
-  display: block;
-}
-
-.blurBg{
-  color: #FF5F17;
-  font-size: 100%;
-  position: relative;
-  z-index: 1;
-  margin-bottom: -8%;
-}
-
-.blurBg span {
-  font-size: 100%;
-}
-
-.back-left {
-  color: white;
-  background-color: white;
-  width: 50%;
-  height: 14%;
-  margin: 0 auto;
-  translate: 0 0px;
-  filter: blur(7px);
-  z-index: -1;
-}
-
-.back-right {
-  color: white;
-  background-color: white;
-  width: 74%;
-  height: 14%;
-  margin: 0 auto;
-  translate: 0 0px;
-  filter: blur(7px);
-  z-index: -1;
-}
-
-.vote {
-  margin-right: 0%;
-}
-
-.upbringing {
-  margin-left: 0%;
-}
-
-.vote img {
-  width: 50%;
-}
-
-.upbringing img {
-  width: 50%;
-}
 
 .footer-text {
   text-align:center;
