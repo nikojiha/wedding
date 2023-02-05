@@ -178,9 +178,9 @@ header img {
 }
 
 .main-text {
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 
 .main-side {
@@ -212,12 +212,13 @@ br{
   order: 1;
   background-color: white;
   padding-top: 10px;
-  margin-left: 203px;
+  margin-left: 33%;
+ 
 }
 
 .map iframe {
-  width: 180px;
-  height: 120px;
+  width: 145%;
+  height: 150%;
 }
 
 
