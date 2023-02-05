@@ -146,14 +146,14 @@ footer {
 @media screen and (max-width: 768px) {
   header img {
     height: 10%;
-    width: 20%;
+    width: 15%;
 }
 
 .title {
   text-align: center;
-    padding-top: 4%;
+    padding-top: 2%;
     margin-left: 2%;
-    font-size: 50px;
+    font-size: 40px;
     color: #ffa500;
     letter-spacing: 3px;
 }
@@ -162,7 +162,6 @@ footer {
   font-size: 50%;
   padding-left: 0%;
   letter-spacing: 4px;
-  display: block;
 }
 
 .blurBg{
@@ -181,7 +180,7 @@ footer {
   color: white;
   background-color: white;
   width: 50%;
-  height: 14%;
+  height: 11%;
   margin: 0 auto;
   translate: 0 -7px;
   filter: blur(7px);
@@ -192,7 +191,7 @@ footer {
   color: white;
   background-color: white;
   width: 74%;
-  height: 14%;
+  height: 11%;
   margin: 0 auto;
   translate: 0 -5px;
   filter: blur(7px);
@@ -226,24 +225,24 @@ footer {
 
 
 header img {
-    height: 20%;
-    width: 30%;
+    height: 10%;
+    width: 15%;
 }
 
 .title {
   text-align: center;
-    padding-top: 0%;
-    margin-left: 1%;
-    font-size: 36px;
-    color: #ffa500;
-    letter-spacing: 3px;
+  padding-top: 2%;
+  margin-left: 1%;
+  font-size: 26px;
+  color: #ffa500;
+  letter-spacing: 0px;
 }
 
 .title span {
-  font-size: 50%;
-  padding-left: 35%;
-  letter-spacing: 4px;
-  display: block;
+  font-size: 60%;
+  padding-left: 0%;
+  letter-spacing: 0px;
+
 }
 
 .blurBg{
@@ -262,9 +261,9 @@ header img {
   color: white;
   background-color: white;
   width: 50%;
-  height: 14%;
-  margin: 0 auto;
-  translate: 0 0px;
+  height: 7%;
+  margin: 5px auto;
+  translate: 0 -1px;
   filter: blur(7px);
   z-index: -1;
 }
@@ -273,9 +272,9 @@ header img {
   color: white;
   background-color: white;
   width: 74%;
-  height: 14%;
-  margin: 0 auto;
-  translate: 0 0px;
+  height: 7%;
+  margin: 5px auto;
+  translate: 0 -1px;
   filter: blur(7px);
   z-index: -1;
 }
@@ -289,17 +288,51 @@ header img {
 }
 
 .vote img {
-  width: 50%;
+  width: 58%;
 }
 
 .upbringing img {
-  width: 50%;
+  width: 58%;
+}
+
+.announce-content img{
+  border-radius: 15px;
+}
+
+.wedding {
+  margin-left: 15px;
+}
+
+.wedding img{
+  width: 80%;
+}
+
+.reception {
+  margin-left: 5px;
+}
+
+.reception img{
+  width: 80%;
+  margin-bottom: 2px
+}
+
+.map {
+  margin-left: 15px;
+}
+.map img{
+  width: 80%;
+}
+
+footer {
+  border-top: solid white 2px;
+  justify-content: center;
+  background-color: #fecc4e;
 }
 
 
 .footer-text {
   text-align:center;
-  font-size: 208%
+  font-size: 192%
 }
 
 }
