@@ -19,7 +19,7 @@ header img {
   text-align:center;
   padding-top: 26px;
   margin-left: 20px;
-  font-size: 50px;
+  font-size: 93px;
   color: #ffa500;
   letter-spacing: 3px;
 }
@@ -62,10 +62,10 @@ header img {
 .back-left {
   color: white;
   background-color: white;
-  width: 256px;
+  width: 355px;
   height: 36px;
   margin:0 auto;
-  translate: 0 0px;
+  translate: 0 6px;
   filter: blur(7px);
   z-index: -1;
 }
@@ -179,7 +179,7 @@ footer {
 .back-left {
   color: white;
   background-color: white;
-  width: 50%;
+  width: 83%;
   height: 11%;
   margin: 0 auto;
   translate: 0 -7px;
@@ -233,7 +233,7 @@ header img {
   text-align: center;
   padding-top: 2%;
   margin-left: 1%;
-  font-size: 26px;
+  font-size: 22px;
   color: #ffa500;
   letter-spacing: 0px;
 }
@@ -260,7 +260,7 @@ header img {
 .back-left {
   color: white;
   background-color: white;
-  width: 50%;
+  width: 87%;
   height: 7%;
   margin: 5px auto;
   translate: 0 -1px;
@@ -300,27 +300,30 @@ header img {
 }
 
 .wedding {
-  margin-left: 15px;
+  margin-left: 3px;
 }
 
 .wedding img{
-  width: 80%;
+  width: 95%;
+  margin-top: 2px;
 }
 
 .reception {
-  margin-left: 5px;
+  margin-left: -6px;
 }
 
 .reception img{
-  width: 80%;
-  margin-bottom: 2px
+  width: 95%;
+  margin-bottom: 100%;
+  margin-left: 11px;
 }
 
 .map {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .map img{
-  width: 80%;
+  width: 95%;
+  margin-top: 2px;
 }
 
 footer {
@@ -332,7 +335,7 @@ footer {
 
 .footer-text {
   text-align:center;
-  font-size: 192%
+  font-size: 175%
 }
 
 }
